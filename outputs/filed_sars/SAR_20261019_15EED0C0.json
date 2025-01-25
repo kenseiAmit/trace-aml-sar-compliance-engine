@@ -1,0 +1,81 @@
+{
+  "sar_metadata": {
+    "sar_id": "SAR_20261019_15EED0C0",
+    "filing_date": "2026-10-19T19:08:45.135570",
+    "filing_type": "Suspicious Activity Report (FinCEN Form 111)",
+    "ai_generated": true,
+    "ai_system": "TRACE Transactional Risk Analysis & Compliance Engine",
+    "review_status": "human_approved",
+    "verification_checksum": "f9ea02878e85f259adf1e6ce01d35b6242f1c2a6269ccff1214deb9d60a30ba3",
+    "authorization_event_id": "AUTH_3AFB9AA2",
+    "amendment_history": [
+      {
+        "amendment_id": "AMD_20261021_20261019",
+        "amendment_date": "2026-10-21T18:00:00Z",
+        "field": "suspicious_activity.narrative",
+        "prior_value": "totaling $39,536.45",
+        "new_value": "totaling $37,536.45",
+        "reason": "Calculated precise aggregate from identified source transactions: $9,576.59 + $9,530.63 + $9,274.89 + $9,154.34 = $37,536.45",
+        "reviewed_by": "Senior BSA Compliance Officer"
+      }
+    ]
+  },
+  "subject_information": {
+    "customer_name": "Tanya Johnston",
+    "customer_id": "CUST_0018",
+    "ssn_last_4": "7149",
+    "date_of_birth": "2001-10-15",
+    "address": "93149 Laura Port, West Amandastad, CA 66818",
+    "customer_since": "2019-10-08",
+    "risk_rating": "High",
+    "occupation": "Therapist, drama",
+    "annual_income": 166876
+  },
+  "suspicious_activity": {
+    "classification": "Structuring",
+    "risk_level": "High",
+    "confidence_score": 0.95,
+    "narrative": "Tanya Johnston (CUST_0018) made four consecutive cash deposits below $10,000 at different branches from 2025-07-22 to 2025-07-25. The deposits, totaling $37,536.45, were made at Branch_Westside_Plaza, Branch_Downtown_Main, and Branch_Eastside_Center. This pattern suggests potential structuring to evade BSA reporting.",
+    "key_indicators": [
+      "High risk rating",
+      "Repeated cash deposits under $10,000"
+    ],
+    "ai_reasoning": "Customer with high risk rating showed a pattern of cash deposits just under $10,000, a common structuring method to evade BSA reporting. No other suspicious activity or counterparty concerns identified."
+  },
+  "regulatory_compliance": {
+    "citations": [
+      "31 CFR 1020.320",
+      "31 USC 5324",
+      "31 CFR 1010.311"
+    ],
+    "completeness_check": true,
+    "narrative_word_count": 37,
+    "compliance_status": "approved_by_compliance_officer"
+  },
+  "accounts_involved": [
+    {
+      "account_id": "CUST_0018_ACC_1",
+      "account_type": "Business_Checking",
+      "current_balance": 29518.74,
+      "status": "Active"
+    },
+    {
+      "account_id": "CUST_0018_ACC_2",
+      "account_type": "Money_Market",
+      "current_balance": 70384.37,
+      "status": "Closed"
+    }
+  ],
+  "audit_trail": {
+    "case_id": "CASE_3AFB9AA2",
+    "processing_date": "2026-10-19T19:08:45.135570",
+    "ai_agents_used": [
+      "RiskAnalyst",
+      "ComplianceOfficer"
+    ],
+    "human_reviewer": "Jane Doe, Senior BSA Compliance Officer",
+    "log_reference": "workflow_integration.jsonl",
+    "authorization_event_id": "AUTH_3AFB9AA2",
+    "authorization_justification": "Approved by compliance officer: multi-branch structuring confirmed with $37,536.45 in cash deposits."
+  }
+}
