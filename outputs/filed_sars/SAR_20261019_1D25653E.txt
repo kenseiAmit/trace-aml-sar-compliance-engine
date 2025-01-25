@@ -1,0 +1,56 @@
+================================================================================
+               FINANCIAL CRIMES ENFORCEMENT NETWORK (FinCEN)
+                       SUSPICIOUS ACTIVITY REPORT
+================================================================================
+
+SAR ID:                 SAR_20261019_1D25653E
+Filing Date:            2026-10-19T19:07:06.709134
+Review Status:          human_approved
+Authorization Event ID: AUTH_BEDDC957
+Integrity Checksum:     edec670c87c566e68aad634f77ff854dc7de0006203951dedd203563b78115e6
+
+PART I - SUBJECT INFORMATION
+--------------------------------------------------------------------------------
+Customer Name:          Jacqueline Rodriguez
+Customer ID:            CUST_0111
+SSN (Last 4):           ***-**-9067
+Date of Birth:          2001-02-01
+Occupation:             Conservation officer, historic buildings
+Risk Rating:            High
+Annual Income:          $306,379
+Address:                49331 Lewis Views Apt. 516, Lake Maryshire, DE 59549
+
+PART II - SUSPICIOUS ACTIVITY INFORMATION
+--------------------------------------------------------------------------------
+Classification:         Money_Laundering
+Risk Level:             High
+Confidence Score:       0.95
+Key Indicators:         High-risk customer, Large incoming wire transfer, Multiple large outgoing transfers
+
+NARRATIVE:
+Jacqueline Rodriguez (ID: CUST_0111) received an incoming wire transfer of $76,517.25 on 2025-07-29, followed by multiple rapid outgoing wire transfers totaling $49,517.51 from 2025-07-30 to 2025-07-31. This rapid fund movement deviates significantly from historical baseline activity and is consistent with potential layering in money laundering.
+
+AI REASONING:
+High-risk customer with sudden large incoming wire transfer followed by multiple large outgoing transfers. Pattern suggests potential layering phase of money laundering.
+
+PART III - REGULATORY COMPLIANCE
+--------------------------------------------------------------------------------
+Regulatory Citations:   31 CFR 1020.320, 18 USC 1956, 18 USC 1957
+Word Count:             45 words
+Compliance Status:      approved_by_compliance_officer
+
+PART IV - ACCOUNTS INVOLVED
+--------------------------------------------------------------------------------
+Account: CUST_0111_ACC_1 | Type: Business_Checking | Balance: $41,311.26
+Account: CUST_0111_ACC_2 | Type: Checking | Balance: $92,858.26
+Account: CUST_0111_ACC_3 | Type: Savings | Balance: $2,343.44
+
+PART V - AUDIT TRAIL & HUMAN AUTHORIZATION
+--------------------------------------------------------------------------------
+Case ID:                CASE_BEDDC957
+Authorization Event ID: AUTH_BEDDC957
+Decision Source:        None
+Human Reviewer:         Jane Doe, Senior BSA Compliance Officer
+Justification:          Approved by compliance officer: rapid succession of incoming wire followed by multiple outgoing wires without apparent commercial purpose warrants filing.
+Audit Log Reference:    workflow_integration.jsonl
+================================================================================
