@@ -1,0 +1,55 @@
+================================================================================
+               FINANCIAL CRIMES ENFORCEMENT NETWORK (FinCEN)
+                       SUSPICIOUS ACTIVITY REPORT
+================================================================================
+
+SAR ID:                 SAR_20261019_15EED0C0
+Filing Date:            2026-10-19T19:08:45.135570
+Review Status:          human_approved
+Authorization Event ID: AUTH_3AFB9AA2
+Integrity Checksum:     f9ea02878e85f259adf1e6ce01d35b6242f1c2a6269ccff1214deb9d60a30ba3
+
+PART I - SUBJECT INFORMATION
+--------------------------------------------------------------------------------
+Customer Name:          Tanya Johnston
+Customer ID:            CUST_0018
+SSN (Last 4):           ***-**-7149
+Date of Birth:          2001-10-15
+Occupation:             Therapist, drama
+Risk Rating:            High
+Annual Income:          $166,876
+Address:                93149 Laura Port, West Amandastad, CA 66818
+
+PART II - SUSPICIOUS ACTIVITY INFORMATION
+--------------------------------------------------------------------------------
+Classification:         Structuring
+Risk Level:             High
+Confidence Score:       0.95
+Key Indicators:         High risk rating, Repeated cash deposits under $10,000
+
+NARRATIVE:
+Tanya Johnston (CUST_0018) made four consecutive cash deposits below $10,000 at different branches from 2025-07-22 to 2025-07-25. The deposits, totaling $37,536.45, were made at Branch_Westside_Plaza, Branch_Downtown_Main, and Branch_Eastside_Center. This pattern suggests potential structuring to evade BSA reporting.
+
+AI REASONING:
+Customer with high risk rating showed a pattern of cash deposits just under $10,000, a common structuring method to evade BSA reporting. No other suspicious activity or counterparty concerns identified.
+
+PART III - REGULATORY COMPLIANCE
+--------------------------------------------------------------------------------
+Regulatory Citations:   31 CFR 1020.320, 31 USC 5324, 31 CFR 1010.311
+Word Count:             37 words
+Compliance Status:      approved_by_compliance_officer
+
+PART IV - ACCOUNTS INVOLVED
+--------------------------------------------------------------------------------
+Account: CUST_0018_ACC_1 | Type: Business_Checking | Balance: $29,518.74
+Account: CUST_0018_ACC_2 | Type: Money_Market | Balance: $70,384.37
+
+PART V - AUDIT TRAIL & HUMAN AUTHORIZATION
+--------------------------------------------------------------------------------
+Case ID:                CASE_3AFB9AA2
+Authorization Event ID: AUTH_3AFB9AA2
+Decision Source:        None
+Human Reviewer:         Jane Doe, Senior BSA Compliance Officer
+Justification:          Approved by compliance officer: multi-branch structuring confirmed with $37,536.45 in cash deposits.
+Audit Log Reference:    workflow_integration.jsonl
+================================================================================
