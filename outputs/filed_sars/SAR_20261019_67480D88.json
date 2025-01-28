@@ -1,0 +1,77 @@
+{
+  "sar_metadata": {
+    "sar_id": "SAR_20261019_67480D88",
+    "filing_date": "2026-10-19T19:08:33.576115",
+    "filing_type": "Suspicious Activity Report (FinCEN Form 111)",
+    "ai_generated": true,
+    "ai_system": "TRACE Transactional Risk Analysis & Compliance Engine",
+    "review_status": "human_approved",
+    "verification_checksum": "7ce8cca82db522ea7f8619140ad53131d33ebb79fdbb4b3f7bf64f58957471a1",
+    "authorization_event_id": "AUTH_3039F1A5"
+  },
+  "subject_information": {
+    "customer_name": "Jacqueline Rodriguez",
+    "customer_id": "CUST_0111",
+    "ssn_last_4": "9067",
+    "date_of_birth": "2001-02-01",
+    "address": "49331 Lewis Views Apt. 516, Lake Maryshire, DE 59549",
+    "customer_since": "2022-02-27",
+    "risk_rating": "High",
+    "occupation": "Conservation officer, historic buildings",
+    "annual_income": 306379
+  },
+  "suspicious_activity": {
+    "classification": "Money_Laundering",
+    "risk_level": "High",
+    "confidence_score": 0.9,
+    "narrative": "Jacqueline Rodriguez (CUST_0111) received an incoming wire transfer of $76,517.25 on 2025-07-29, followed by rapid outgoing wire transfers totaling $49,517.51 between 2025-07-30 and 2025-07-31. This high velocity and volume represent a significant deviation from the customer established account baseline and documented transaction history, presenting patterns consistent with potential layering in money laundering.",
+    "key_indicators": [
+      "Large incoming wire transfer",
+      "Multiple large outgoing wire transfers",
+      "High account balances"
+    ],
+    "ai_reasoning": "High volume of transactions, sudden large incoming wire transfer followed by multiple large outgoing transfers, and high account balances despite customer's young age and recent account opening."
+  },
+  "regulatory_compliance": {
+    "citations": [
+      "31 CFR 1020.320",
+      "18 USC 1956",
+      "18 USC 1957"
+    ],
+    "completeness_check": true,
+    "narrative_word_count": 52,
+    "compliance_status": "approved_by_compliance_officer"
+  },
+  "accounts_involved": [
+    {
+      "account_id": "CUST_0111_ACC_1",
+      "account_type": "Business_Checking",
+      "current_balance": 41311.26,
+      "status": "Active"
+    },
+    {
+      "account_id": "CUST_0111_ACC_2",
+      "account_type": "Checking",
+      "current_balance": 92858.26,
+      "status": "Active"
+    },
+    {
+      "account_id": "CUST_0111_ACC_3",
+      "account_type": "Savings",
+      "current_balance": 2343.44,
+      "status": "Active"
+    }
+  ],
+  "audit_trail": {
+    "case_id": "CASE_3039F1A5",
+    "processing_date": "2026-10-19T19:08:33.576115",
+    "ai_agents_used": [
+      "RiskAnalyst",
+      "ComplianceOfficer"
+    ],
+    "human_reviewer": "Jane Doe, Senior BSA Compliance Officer",
+    "log_reference": "workflow_integration.jsonl",
+    "authorization_event_id": "AUTH_3039F1A5",
+    "authorization_justification": "Approved by compliance officer: substantial deviation from established customer baseline, high transaction velocity indicative of layering."
+  }
+}
