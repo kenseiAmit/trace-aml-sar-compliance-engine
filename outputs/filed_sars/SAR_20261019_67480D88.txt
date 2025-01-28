@@ -1,0 +1,56 @@
+================================================================================
+               FINANCIAL CRIMES ENFORCEMENT NETWORK (FinCEN)
+                       SUSPICIOUS ACTIVITY REPORT
+================================================================================
+
+SAR ID:                 SAR_20261019_67480D88
+Filing Date:            2026-10-19T19:08:33.576115
+Review Status:          human_approved
+Authorization Event ID: AUTH_3039F1A5
+Integrity Checksum:     7ce8cca82db522ea7f8619140ad53131d33ebb79fdbb4b3f7bf64f58957471a1
+
+PART I - SUBJECT INFORMATION
+--------------------------------------------------------------------------------
+Customer Name:          Jacqueline Rodriguez
+Customer ID:            CUST_0111
+SSN (Last 4):           ***-**-9067
+Date of Birth:          2001-02-01
+Occupation:             Conservation officer, historic buildings
+Risk Rating:            High
+Annual Income:          $306,379
+Address:                49331 Lewis Views Apt. 516, Lake Maryshire, DE 59549
+
+PART II - SUSPICIOUS ACTIVITY INFORMATION
+--------------------------------------------------------------------------------
+Classification:         Money_Laundering
+Risk Level:             High
+Confidence Score:       0.9
+Key Indicators:         Large incoming wire transfer, Multiple large outgoing wire transfers, High account balances
+
+NARRATIVE:
+Jacqueline Rodriguez (CUST_0111) received an incoming wire transfer of $76,517.25 on 2025-07-29, followed by rapid outgoing wire transfers totaling $49,517.51 between 2025-07-30 and 2025-07-31. This high velocity and volume represent a significant deviation from the customer established account baseline and documented transaction history, presenting patterns consistent with potential layering in money laundering.
+
+AI REASONING:
+High volume of transactions, sudden large incoming wire transfer followed by multiple large outgoing transfers, and high account balances despite customer's young age and recent account opening.
+
+PART III - REGULATORY COMPLIANCE
+--------------------------------------------------------------------------------
+Regulatory Citations:   31 CFR 1020.320, 18 USC 1956, 18 USC 1957
+Word Count:             52 words
+Compliance Status:      approved_by_compliance_officer
+
+PART IV - ACCOUNTS INVOLVED
+--------------------------------------------------------------------------------
+Account: CUST_0111_ACC_1 | Type: Business_Checking | Balance: $41,311.26
+Account: CUST_0111_ACC_2 | Type: Checking | Balance: $92,858.26
+Account: CUST_0111_ACC_3 | Type: Savings | Balance: $2,343.44
+
+PART V - AUDIT TRAIL & HUMAN AUTHORIZATION
+--------------------------------------------------------------------------------
+Case ID:                CASE_3039F1A5
+Authorization Event ID: AUTH_3039F1A5
+Decision Source:        None
+Human Reviewer:         Jane Doe, Senior BSA Compliance Officer
+Justification:          Approved by compliance officer: substantial deviation from established customer baseline, high transaction velocity indicative of layering.
+Audit Log Reference:    workflow_integration.jsonl
+================================================================================
