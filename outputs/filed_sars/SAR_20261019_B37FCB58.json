@@ -1,0 +1,77 @@
+{
+  "sar_metadata": {
+    "sar_id": "SAR_20261019_B37FCB58",
+    "filing_date": "2026-10-19T19:07:32.738725",
+    "filing_type": "Suspicious Activity Report (FinCEN Form 111)",
+    "ai_generated": true,
+    "ai_system": "TRACE Transactional Risk Analysis & Compliance Engine",
+    "review_status": "human_approved",
+    "verification_checksum": "ea77bec64decb8250f14afbe99f2dfca6314c3de9bbf80181840bf480b519fcb",
+    "authorization_event_id": "AUTH_E91038B5"
+  },
+  "subject_information": {
+    "customer_name": "Tracy Lewis",
+    "customer_id": "CUST_0053",
+    "ssn_last_4": "1828",
+    "date_of_birth": "1966-10-26",
+    "address": "8016 Nicole Stream Suite 650, Williamsside, ID 48017",
+    "customer_since": "2024-05-11",
+    "risk_rating": "Medium",
+    "occupation": "Nurse, mental health",
+    "annual_income": 131925
+  },
+  "suspicious_activity": {
+    "classification": "Structuring",
+    "risk_level": "High",
+    "confidence_score": 0.95,
+    "narrative": "Tracy Lewis (ID: CUST_0053) conducted seven consecutive cash deposits totaling $67,569.06 between 2025-07-25 and 2025-07-31 across multiple branch locations, with amounts ranging from $9,238.15 to $9,915.61 just below the $10,000 threshold. This pattern appears consistent with structuring behavior to evade currency transaction reporting requirements under 31 CFR 1010.311, warranting reporting under 31 CFR 1020.320 and 31 USC 5324.",
+    "key_indicators": [
+      "Multiple cash deposits",
+      "Amounts just under $10,000",
+      "Short time frame"
+    ],
+    "ai_reasoning": "Customer made multiple cash deposits just under $10,000 in a short period, a common structuring pattern to evade BSA reporting thresholds. No other suspicious activities detected."
+  },
+  "regulatory_compliance": {
+    "citations": [
+      "31 CFR 1020.320",
+      "31 USC 5324",
+      "31 CFR 1010.311"
+    ],
+    "completeness_check": true,
+    "narrative_word_count": 58,
+    "compliance_status": "approved_by_compliance_officer"
+  },
+  "accounts_involved": [
+    {
+      "account_id": "CUST_0053_ACC_1",
+      "account_type": "Money_Market",
+      "current_balance": 17676.35,
+      "status": "Active"
+    },
+    {
+      "account_id": "CUST_0053_ACC_2",
+      "account_type": "Savings",
+      "current_balance": 62101.19,
+      "status": "Active"
+    },
+    {
+      "account_id": "CUST_0053_ACC_3",
+      "account_type": "Business_Checking",
+      "current_balance": 90679.35,
+      "status": "Active"
+    }
+  ],
+  "audit_trail": {
+    "case_id": "CASE_E91038B5",
+    "processing_date": "2026-10-19T19:07:32.738725",
+    "ai_agents_used": [
+      "RiskAnalyst",
+      "ComplianceOfficer"
+    ],
+    "human_reviewer": "Jane Doe, Senior BSA Compliance Officer",
+    "log_reference": "workflow_integration.jsonl",
+    "authorization_event_id": "AUTH_E91038B5",
+    "authorization_justification": "Approved by compliance officer: verified 7 consecutive cash deposits under $10,000 totaling $67,569.06; consistent with classic structuring."
+  }
+}
