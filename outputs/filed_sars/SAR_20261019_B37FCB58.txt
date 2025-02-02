@@ -1,0 +1,56 @@
+================================================================================
+               FINANCIAL CRIMES ENFORCEMENT NETWORK (FinCEN)
+                       SUSPICIOUS ACTIVITY REPORT
+================================================================================
+
+SAR ID:                 SAR_20261019_B37FCB58
+Filing Date:            2026-10-19T19:07:32.738725
+Review Status:          human_approved
+Authorization Event ID: AUTH_E91038B5
+Integrity Checksum:     ea77bec64decb8250f14afbe99f2dfca6314c3de9bbf80181840bf480b519fcb
+
+PART I - SUBJECT INFORMATION
+--------------------------------------------------------------------------------
+Customer Name:          Tracy Lewis
+Customer ID:            CUST_0053
+SSN (Last 4):           ***-**-1828
+Date of Birth:          1966-10-26
+Occupation:             Nurse, mental health
+Risk Rating:            Medium
+Annual Income:          $131,925
+Address:                8016 Nicole Stream Suite 650, Williamsside, ID 48017
+
+PART II - SUSPICIOUS ACTIVITY INFORMATION
+--------------------------------------------------------------------------------
+Classification:         Structuring
+Risk Level:             High
+Confidence Score:       0.95
+Key Indicators:         Multiple cash deposits, Amounts just under $10,000, Short time frame
+
+NARRATIVE:
+Tracy Lewis (ID: CUST_0053) conducted seven consecutive cash deposits totaling $67,569.06 between 2025-07-25 and 2025-07-31 across multiple branch locations, with amounts ranging from $9,238.15 to $9,915.61 just below the $10,000 threshold. This pattern appears consistent with structuring behavior to evade currency transaction reporting requirements under 31 CFR 1010.311, warranting reporting under 31 CFR 1020.320 and 31 USC 5324.
+
+AI REASONING:
+Customer made multiple cash deposits just under $10,000 in a short period, a common structuring pattern to evade BSA reporting thresholds. No other suspicious activities detected.
+
+PART III - REGULATORY COMPLIANCE
+--------------------------------------------------------------------------------
+Regulatory Citations:   31 CFR 1020.320, 31 USC 5324, 31 CFR 1010.311
+Word Count:             58 words
+Compliance Status:      approved_by_compliance_officer
+
+PART IV - ACCOUNTS INVOLVED
+--------------------------------------------------------------------------------
+Account: CUST_0053_ACC_1 | Type: Money_Market | Balance: $17,676.35
+Account: CUST_0053_ACC_2 | Type: Savings | Balance: $62,101.19
+Account: CUST_0053_ACC_3 | Type: Business_Checking | Balance: $90,679.35
+
+PART V - AUDIT TRAIL & HUMAN AUTHORIZATION
+--------------------------------------------------------------------------------
+Case ID:                CASE_E91038B5
+Authorization Event ID: AUTH_E91038B5
+Decision Source:        None
+Human Reviewer:         Jane Doe, Senior BSA Compliance Officer
+Justification:          Approved by compliance officer: verified 7 consecutive cash deposits under $10,000 totaling $67,569.06; consistent with classic structuring.
+Audit Log Reference:    workflow_integration.jsonl
+================================================================================
