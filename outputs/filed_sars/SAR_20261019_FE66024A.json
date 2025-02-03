@@ -1,0 +1,65 @@
+{
+  "sar_metadata": {
+    "sar_id": "SAR_20261019_FE66024A",
+    "filing_date": "2026-10-19T19:07:43.539118",
+    "filing_type": "Suspicious Activity Report (FinCEN Form 111)",
+    "ai_generated": true,
+    "ai_system": "TRACE Transactional Risk Analysis & Compliance Engine",
+    "review_status": "human_approved",
+    "verification_checksum": "a822f69bba517572b39379bd677e32019e28da32bccce07038bccec5e46638cf",
+    "authorization_event_id": "AUTH_D103BC82"
+  },
+  "subject_information": {
+    "customer_name": "Brandon Reyes",
+    "customer_id": "CUST_0090",
+    "ssn_last_4": "9614",
+    "date_of_birth": "1970-12-30",
+    "address": "5787 Durham Parkway, Paulburgh, AK 42296",
+    "customer_since": "2017-12-25",
+    "risk_rating": "Medium",
+    "occupation": "Banker",
+    "annual_income": 54731
+  },
+  "suspicious_activity": {
+    "classification": "Structuring",
+    "risk_level": "High",
+    "confidence_score": 0.95,
+    "narrative": "Brandon Reyes (ID: CUST_0090) conducted four consecutive daily cash deposits totaling $38,107.63 between 2025-07-19 and 2025-07-22 across Branch_Eastside_Center, Branch_Suburban_Center, and Branch_Airport_Terminal. Each deposit was just below $10,000. This transactional velocity is consistent with potential structuring to circumvent currency transaction reporting.",
+    "key_indicators": [
+      "Multiple cash deposits just below $10,000",
+      "Consecutive daily cash deposits",
+      "Cash deposits at different branch locations"
+    ],
+    "ai_reasoning": "Customer's account shows multiple cash deposits just below $10,000, a common structuring technique to evade BSA reporting. No other suspicious patterns or high-risk factors identified."
+  },
+  "regulatory_compliance": {
+    "citations": [
+      "31 CFR 1020.320",
+      "31 USC 5324",
+      "31 CFR 1010.311"
+    ],
+    "completeness_check": true,
+    "narrative_word_count": 40,
+    "compliance_status": "approved_by_compliance_officer"
+  },
+  "accounts_involved": [
+    {
+      "account_id": "CUST_0090_ACC_1",
+      "account_type": "Money_Market",
+      "current_balance": 2416.18,
+      "status": "Active"
+    }
+  ],
+  "audit_trail": {
+    "case_id": "CASE_D103BC82",
+    "processing_date": "2026-10-19T19:07:43.539118",
+    "ai_agents_used": [
+      "RiskAnalyst",
+      "ComplianceOfficer"
+    ],
+    "human_reviewer": "Jane Doe, Senior BSA Compliance Officer",
+    "log_reference": "workflow_integration.jsonl",
+    "authorization_event_id": "AUTH_D103BC82",
+    "authorization_justification": "Approved by compliance officer: verified 4 consecutive cash deposits across three separate branches totaling $38,107.63; clear structuring pattern."
+  }
+}
