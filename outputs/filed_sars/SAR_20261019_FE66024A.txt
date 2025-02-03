@@ -1,0 +1,54 @@
+================================================================================
+               FINANCIAL CRIMES ENFORCEMENT NETWORK (FinCEN)
+                       SUSPICIOUS ACTIVITY REPORT
+================================================================================
+
+SAR ID:                 SAR_20261019_FE66024A
+Filing Date:            2026-10-19T19:07:43.539118
+Review Status:          human_approved
+Authorization Event ID: AUTH_D103BC82
+Integrity Checksum:     a822f69bba517572b39379bd677e32019e28da32bccce07038bccec5e46638cf
+
+PART I - SUBJECT INFORMATION
+--------------------------------------------------------------------------------
+Customer Name:          Brandon Reyes
+Customer ID:            CUST_0090
+SSN (Last 4):           ***-**-9614
+Date of Birth:          1970-12-30
+Occupation:             Banker
+Risk Rating:            Medium
+Annual Income:          $54,731
+Address:                5787 Durham Parkway, Paulburgh, AK 42296
+
+PART II - SUSPICIOUS ACTIVITY INFORMATION
+--------------------------------------------------------------------------------
+Classification:         Structuring
+Risk Level:             High
+Confidence Score:       0.95
+Key Indicators:         Multiple cash deposits just below $10,000, Consecutive daily cash deposits, Cash deposits at different branch locations
+
+NARRATIVE:
+Brandon Reyes (ID: CUST_0090) conducted four consecutive daily cash deposits totaling $38,107.63 between 2025-07-19 and 2025-07-22 across Branch_Eastside_Center, Branch_Suburban_Center, and Branch_Airport_Terminal. Each deposit was just below $10,000. This transactional velocity is consistent with potential structuring to circumvent currency transaction reporting.
+
+AI REASONING:
+Customer's account shows multiple cash deposits just below $10,000, a common structuring technique to evade BSA reporting. No other suspicious patterns or high-risk factors identified.
+
+PART III - REGULATORY COMPLIANCE
+--------------------------------------------------------------------------------
+Regulatory Citations:   31 CFR 1020.320, 31 USC 5324, 31 CFR 1010.311
+Word Count:             40 words
+Compliance Status:      approved_by_compliance_officer
+
+PART IV - ACCOUNTS INVOLVED
+--------------------------------------------------------------------------------
+Account: CUST_0090_ACC_1 | Type: Money_Market | Balance: $2,416.18
+
+PART V - AUDIT TRAIL & HUMAN AUTHORIZATION
+--------------------------------------------------------------------------------
+Case ID:                CASE_D103BC82
+Authorization Event ID: AUTH_D103BC82
+Decision Source:        None
+Human Reviewer:         Jane Doe, Senior BSA Compliance Officer
+Justification:          Approved by compliance officer: verified 4 consecutive cash deposits across three separate branches totaling $38,107.63; clear structuring pattern.
+Audit Log Reference:    workflow_integration.jsonl
+================================================================================
