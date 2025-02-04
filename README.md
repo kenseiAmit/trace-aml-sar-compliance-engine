@@ -1,11 +1,18 @@
-# TRACE: Two-Stage Agentic AML Risk Analysis & FinCEN SAR Compliance Engine
+<div align="center">
+  <img src="assets/hero-banner.svg" alt="TRACE: AML & FinCEN SAR Engine" width="100%" />
+  <br/><br/>
+  [![CI](https://github.com/kenseiAmit/trace-aml-sar-compliance-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/kenseiAmit/trace-aml-sar-compliance-engine/actions/workflows/ci.yml)
+  ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)
+  ![Pytest](https://img.shields.io/badge/Pytest-31%2F31%20Passing-16A34A?style=flat-square&logo=pytest&logoColor=white)
+  ![FinCEN SAR](https://img.shields.io/badge/FinCEN%20SAR-10%20Verified%20Filings%20(%3C%3D120w)-0D9488?style=flat-square)
+  ![Audit](https://img.shields.io/badge/Audit%20Log-SHA--256%20Tamper--Evident%20JSONL-2563EB?style=flat-square)
+  ![License](https://img.shields.io/badge/License-MIT-slate?style=flat-square)
 
-[![CI](https://github.com/kenseiAmit/trace-aml-sar-compliance-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/kenseiAmit/trace-aml-sar-compliance-engine/actions/workflows/ci.yml)
-![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)
-![Pytest](https://img.shields.io/badge/Pytest-31%2F31%20Passing-16A34A?style=flat-square&logo=pytest&logoColor=white)
-![FinCEN SAR](https://img.shields.io/badge/FinCEN%20SAR-10%20Verified%20Filings%20(%3C%3D120w)-0D9488?style=flat-square)
-![Audit](https://img.shields.io/badge/Audit%20Log-SHA--256%20Tamper--Evident%20JSONL-2563EB?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-slate?style=flat-square)
+  <br/>
+  <img src="assets/live-demo.svg" alt="Live Execution Trace" width="96%" />
+</div>
+
+---
 
 Two-stage financial crime investigation and Suspicious Activity Report (SAR) filing engine combining **5-step Chain-of-Thought (CoT) AML typology classification**, **mandatory Human-in-the-Loop (HITL) compliance officer authorization gates**, **ReACT regulatory narrative generation**, **regex-bounded statutory citation validation**, and **SHA-256 tamper-evident JSONL audit trails**.
 
