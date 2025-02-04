@@ -1,5 +1,6 @@
 # TRACE: Two-Stage Agentic AML Risk Analysis & FinCEN SAR Compliance Engine
 
+[![CI](https://github.com/kenseiAmit/trace-aml-sar-compliance-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/kenseiAmit/trace-aml-sar-compliance-engine/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Pytest](https://img.shields.io/badge/Pytest-31%2F31%20Passing-16A34A?style=flat-square&logo=pytest&logoColor=white)
 ![FinCEN SAR](https://img.shields.io/badge/FinCEN%20SAR-10%20Verified%20Filings%20(%3C%3D120w)-0D9488?style=flat-square)
