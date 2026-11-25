@@ -5,7 +5,7 @@ from typing import Optional
 from openai import OpenAI
 
 __version__ = "1.0.0"
-__author__ = "Amit Kumar Koshta"
+__author__ = "Amit Kumar"
 
 
 def create_openai_client(api_key: Optional[str] = None, base_url: Optional[str] = None) -> OpenAI:
