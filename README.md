@@ -14,6 +14,8 @@
 
 ---
 
+![TRACE BSA/AML & FinCEN Form 111 SAR Compliance Architecture](docs/images/architecture_blueprint.png)
+
 Two-stage financial crime investigation and Suspicious Activity Report (SAR) filing engine combining **5-step Chain-of-Thought (CoT) AML typology classification**, **mandatory Human-in-the-Loop (HITL) compliance officer authorization gates**, **ReACT regulatory narrative generation**, **regex-bounded statutory citation validation**, and **SHA-256 tamper-evident JSONL audit trails**.
 
 ![TRACE AML & FinCEN SAR Telemetry](docs/images/trace_aml_sar_telemetry.png)
